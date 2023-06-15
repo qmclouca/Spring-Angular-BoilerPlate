@@ -1,2 +1,13 @@
-package com.qmclouca.springangularboilerplate;public class AppApplication {
+package com.qmclouca.springangularboilerplate;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AppApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AppApplication.class, args);
+
+    }
 }
