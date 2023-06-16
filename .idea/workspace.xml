@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/baseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/cliente.java" afterDir="false" />
+    <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="entities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/baseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/baseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "5237d232843cc4b5db54f7586b6c8098",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/lombok/lib/lombok.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5237d232843cc4b5db54f7586b6c8098&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.AppApplication">
     <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qmclouca.springangularboilerplate.AppApplication" />
@@ -82,11 +83,27 @@
       <option name="presentableId" value="Default" />
       <updated>1686779009823</updated>
       <workItem from="1686779010800" duration="2451000" />
-      <workItem from="1686827527922" duration="1400000" />
+      <workItem from="1686827527922" duration="1462000" />
+      <workItem from="1686956827063" duration="724000" />
+      <workItem from="1686957571124" duration="448000" />
+      <workItem from="1686958033750" duration="918000" />
+      <workItem from="1686958963740" duration="459000" />
     </task>
+    <task id="LOCAL-00001" summary="entities">
+      <created>1686828965603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686828965603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="entities" />
   </component>
 </project>
