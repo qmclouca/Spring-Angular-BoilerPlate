@@ -16,9 +16,9 @@ public class baseEntity {
     private UUID id;
 
     @GeneratedValue (strategy = GenerationType.AUTO)
-    @Column(updatable = false, nullable = false)
-    private LocalDateTime dataCriacao;
+    @Column(updatable = false, nullable = false, name = "data_cadastro")
+    private LocalDateTime dataCadastro;
 
-    @Column
+    @Column(name = "data_alteracao")
     private LocalDateTime dataAlteracao;
 }
