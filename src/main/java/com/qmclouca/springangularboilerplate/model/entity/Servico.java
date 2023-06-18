@@ -1,17 +1,16 @@
 package com.qmclouca.springangularboilerplate.model.entity;
 
+import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.persistence.*;
 import java.math.BigDecimal;
-import java.util.UUID;
 
 @Entity
 @Data
 public class Servico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private UUID id;
+    private Integer id;
     @Column(nullable = false, length = 150)
     private String descricao;
     @ManyToOne
