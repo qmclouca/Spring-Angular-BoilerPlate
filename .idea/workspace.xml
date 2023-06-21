@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Servico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/baseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +113,8 @@
       <workItem from="1687044917134" duration="5463000" />
       <workItem from="1687050828765" duration="477000" />
       <workItem from="1687095321184" duration="3559000" />
-      <workItem from="1687221978993" duration="3454000" />
+      <workItem from="1687221978993" duration="3828000" />
+      <workItem from="1687310532707" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -163,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687096401937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ClienteController">
+      <created>1687225613821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687225613821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +200,8 @@
     <MESSAGE value="servico cliente" />
     <MESSAGE value="ClienteRepository e ServicoRepository" />
     <MESSAGE value="H2 configurado corretamente" />
-    <option name="LAST_COMMIT_MESSAGE" value="H2 configurado corretamente" />
+    <MESSAGE value="ClienteController" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClienteController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,11 +214,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
