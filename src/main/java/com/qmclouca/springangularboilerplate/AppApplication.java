@@ -1,16 +1,16 @@
 package com.qmclouca.springangularboilerplate;
 
-import com.qmclouca.springangularboilerplate.model.entity.Cliente;
-import com.qmclouca.springangularboilerplate.model.repository.ClienteRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 
 @SpringBootApplication
+@EnableSwagger2
+@EnableSwagger2WebMvc
 public class AppApplication {
 
+   /*
     @Bean
     public CommandLineRunner run(@Autowired ClienteRepository repository) {
         return args -> {
@@ -18,6 +18,8 @@ public class AppApplication {
             repository.save(cliente);
         };
     }
+    */
+
 
     public static void main(String[] args) {
         SpringApplication.run(AppApplication.class, args);
