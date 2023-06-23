@@ -1,4 +1,4 @@
-package com.qmclouca.springangularboilerplate.rest;
+package com.qmclouca.springangularboilerplate.controllers;
 
 import com.qmclouca.springangularboilerplate.model.entity.Cliente;
 import com.qmclouca.springangularboilerplate.model.repository.ClienteRepository;

@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/application-development.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/application-production.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/GeneralConfigurarion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/annotations/Development.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/annotations/Homologation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/annotations/Production.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/controllers/ClienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +119,8 @@
       <workItem from="1687095321184" duration="3559000" />
       <workItem from="1687221978993" duration="3828000" />
       <workItem from="1687310532707" duration="3242000" />
-      <workItem from="1687345868658" duration="2818000" />
+      <workItem from="1687345868658" duration="6018000" />
+      <workItem from="1687477061038" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -184,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687313169002</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="instalando swagger">
+      <created>1687348710990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687348710990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +221,8 @@
     <MESSAGE value="ClienteRepository e ServicoRepository" />
     <MESSAGE value="H2 configurado corretamente" />
     <MESSAGE value="ClienteController" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClienteController" />
+    <MESSAGE value="instalando swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="instalando swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
