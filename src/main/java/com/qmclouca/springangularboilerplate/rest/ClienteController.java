@@ -2,6 +2,7 @@ package com.qmclouca.springangularboilerplate.rest;
 
 import com.qmclouca.springangularboilerplate.model.entity.Cliente;
 import com.qmclouca.springangularboilerplate.model.repository.ClienteRepository;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,12 +22,14 @@ public class ClienteController {
     }
 
     @PostMapping
+    @ApiOperation("Salva um novo cliente")
     @ResponseStatus(HttpStatus.CREATED)
     public Cliente salvar(@RequestBody Cliente cliente) {
         return repository.save(cliente);
     }
 
     @GetMapping
+    @ApiOperation("Obtém uma lista de clientes")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Cliente> getClienteByNome(@RequestParam String nome) {
         if (nome == null || nome.trim().isEmpty()) {
@@ -41,6 +44,7 @@ public class ClienteController {
     }
 
     @GetMapping("{id}")
+    @ApiOperation("Obtém um cliente pelo ID")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Cliente> getClienteById(@PathVariable Integer id) {
         if (id == null) {
@@ -54,12 +58,14 @@ public class ClienteController {
     }
 
     @DeleteMapping("{id}")
+    @ApiOperation("Deleta um cliente pelo ID")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable Integer id) {
         repository.deleteById(id);
     }
 
     @PatchMapping("{id}")
+    @ApiOperation("Atualiza um cliente pelo ID")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void update(@PathVariable Integer id, @RequestBody Cliente cliente) {
         Cliente clienteAtual = repository.findById(id)
