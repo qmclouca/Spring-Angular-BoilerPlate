@@ -2,14 +2,15 @@ package com.qmclouca.springangularboilerplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
-import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@EnableSwagger2
-@EnableSwagger2WebMvc
+//@EnableSwagger2
+//@EnableSwagger2WebMvc
+@ComponentScan("com.qmclouca.springangularboilerplate.model.repository")
+@ServletComponentScan("com.qmclouca.springangularboilerplate.model.repository")
 public class AppApplication {
 
    /*
@@ -22,7 +23,10 @@ public class AppApplication {
     }
     */
 
+
     public static void main(String[] args) {
-        SpringApplication.run(AppApplication.class, args);
+        SpringApplication application = new SpringApplication(AppApplication.class);
+        application.addListeners(new SwaggerConfig());
+        application.run(args);
     }
 }
