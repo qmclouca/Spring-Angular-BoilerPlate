@@ -1,5 +1,6 @@
-package com.qmclouca.springangularboilerplate.model.entity;
+package com.qmclouca.springangularboilerplate.domain.service;
 
+import com.qmclouca.springangularboilerplate.domain.model.entities.Client;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -17,7 +18,7 @@ public class Servico {
 
     @ManyToOne
     @JoinColumn(name = "id_cliente")
-    private Cliente cliente;
+    private Client client;
 
     @Column
     private BigDecimal valor;

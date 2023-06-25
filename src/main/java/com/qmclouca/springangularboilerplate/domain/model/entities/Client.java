@@ -1,21 +1,13 @@
-package com.qmclouca.springangularboilerplate.model.entity;
+package com.qmclouca.springangularboilerplate.domain.model.entities;
 
-import io.swagger.annotations.ApiModel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-@ApiModel
-public class Cliente{
+public class Client {
 
     @Id
     @GeneratedValue  (strategy = GenerationType.IDENTITY)
