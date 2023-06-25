@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/Spring_Angular_BoilerPlate-openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/aggregates/OpenApiEndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resources/application-development.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-development.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/service/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/service/Servico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-production.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,7 @@
       <workItem from="1687628248863" duration="2019000" />
       <workItem from="1687630354160" duration="6753000" />
       <workItem from="1687699091212" duration="799000" />
-      <workItem from="1687699926200" duration="1631000" />
+      <workItem from="1687699926200" duration="3834000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -225,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687651612085</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger">
+      <option name="closed" value="true" />
+      <created>1687701664557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687701664557</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +270,8 @@
     <MESSAGE value="H2 configurado corretamente" />
     <MESSAGE value="ClienteController" />
     <MESSAGE value="Funcionando, swagger retirado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionando, swagger retirado" />
+    <MESSAGE value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

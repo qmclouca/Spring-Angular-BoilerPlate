@@ -2,11 +2,13 @@ package com.qmclouca.springangularboilerplate.application.controllers;
 
 import com.qmclouca.springangularboilerplate.domain.model.entities.Client;
 import com.qmclouca.springangularboilerplate.infrastructure.persistence.repository.ClientRepository;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 @ComponentScan
@@ -20,12 +22,14 @@ public class ClientController {
         this.clienteRepository = clienteRepository;
     }
 
+    @Operation(summary = "Cria um novo cliente")
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Client salvar(@RequestBody Client client) {
         return clienteRepository.save(client);
     }
 
+    @Operation(summary = "Atualiza um cliente existente")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Client> getClienteByNome(@RequestParam String nome) {
@@ -40,6 +44,7 @@ public class ClientController {
         return ResponseEntity.ok(client);
     }
 
+    @Operation(summary = "Retorna um cliente pelo seu id")
     @GetMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Client> getClienteById(@PathVariable Integer id) {
@@ -53,6 +58,7 @@ public class ClientController {
         return ResponseEntity.ok(client);
     }
 
+    @Operation(summary="Deleta um cliente pelo seu id")
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable Integer id) {
