@@ -1,0 +1,90 @@
+openapi: "3.0.3"
+info:
+  title: "Spring_Angular_BoilerPlate API"
+  description: "Spring_Angular_BoilerPlate API"
+  version: "1.0.0"
+servers:
+  - url: "https://Spring_Angular_BoilerPlate"
+paths:
+  /api/clientes:
+    post:
+      summary: "POST api/clientes"
+      operationId: "salvar"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Client"
+        required: true
+      responses:
+        "201":
+          description: "Created"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/Client"
+    get:
+      summary: "GET api/clientes"
+      operationId: "getClienteByNome"
+      parameters:
+        - name: "nome"
+          in: "query"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/Client"
+  /api/clientes/{id}:
+    get:
+      summary: "GET api/clientes/{id}"
+      operationId: "getClienteById"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "integer"
+            format: "int32"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/Client"
+    delete:
+      summary: "DELETE api/clientes/{id}"
+      operationId: "delete"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          schema:
+            type: "integer"
+            format: "int32"
+      responses:
+        "204":
+          description: "No Content"
+components:
+  schemas:
+    Client:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          format: "int32"
+        dataCadastro:
+          type: "string"
+          format: "date-time"
+        dataAlteracao:
+          type: "string"
+          format: "date-time"
+        nome:
+          type: "string"
+        cpf:
+          type: "string"

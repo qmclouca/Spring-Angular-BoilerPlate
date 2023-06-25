@@ -3,7 +3,7 @@ package com.qmclouca.springangularboilerplate.domain.service;
 import com.qmclouca.springangularboilerplate.domain.model.entities.Client;
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
