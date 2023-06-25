@@ -1,6 +1,6 @@
-package com.qmclouca.springangularboilerplate.model.repository;
+package com.qmclouca.springangularboilerplate.entities.repository;
 
-import com.qmclouca.springangularboilerplate.model.entity.Cliente;
+import com.qmclouca.springangularboilerplate.entities.services.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

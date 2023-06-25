@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/AppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/application-development.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-development.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-production.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/service/Servico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ServicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ServicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +47,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -60,6 +70,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DELOMBOK_PRE_COMMIT&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -70,20 +84,14 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;5237d232843cc4b5db54f7586b6c8098&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean" />
-      <command value="mvn install" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AppApplication">
+  <component name="RunManager" selected="Spring Boot.AppApplication">
     <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qmclouca.springangularboilerplate.AppApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.qmclouca.springangularboilerplate.application.AppApplication" />
       <module name="Spring-Angular-BoilerPlate" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +105,29 @@
     </configuration>
     <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-Angular-BoilerPlate" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qmclouca.springangularboilerplate.AppApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qmclouca.springangularboilerplate.application.AppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="C:\Users\qmclo\IdeaProjects\Spring-Angular-BoilerPlate\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="C:\Users\qmclo\AppData\Roaming\JetBrains\IntelliJIdea2023.1\openApiExport\Spring_Angular_BoilerPlate-openapi.yaml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppApplication" />
         <item itemvalue="Application.AppApplication" />
       </list>
     </recent_temporary>
@@ -127,8 +150,10 @@
       <workItem from="1687050828765" duration="477000" />
       <workItem from="1687095321184" duration="3559000" />
       <workItem from="1687221978993" duration="3828000" />
-      <workItem from="1687310532707" duration="2327000" />
-      <workItem from="1687564333752" duration="5477000" />
+      <workItem from="1687310532707" duration="3242000" />
+      <workItem from="1687345868658" duration="2818000" />
+      <workItem from="1687628248863" duration="2019000" />
+      <workItem from="1687630354160" duration="4859000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -179,12 +204,12 @@
       <option name="project" value="LOCAL" />
       <updated>1687225613821</updated>
     </task>
-    <task id="LOCAL-00008" summary="Downgrade spring and adjustments to use swagger">
-      <created>1687482088632</created>
+    <task id="LOCAL-00008" summary="ClienteController">
+      <created>1687313169001</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1687482088632</updated>
+      <updated>1687313169002</updated>
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -203,7 +228,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Downgrade" />
+                        <option value="Services" />
                       </list>
                     </value>
                   </entry>
@@ -222,8 +247,7 @@
     <MESSAGE value="ClienteRepository e ServicoRepository" />
     <MESSAGE value="H2 configurado corretamente" />
     <MESSAGE value="ClienteController" />
-    <MESSAGE value="Downgrade spring and adjustments to use swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Downgrade spring and adjustments to use swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClienteController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,12 +256,18 @@
           <properties class="java.lang.IllegalStateException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java</url>
-          <line>19</line>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spring_Angular_BoilerPlate$AppApplication.ic" NAME="AppApplication Coverage Results" MODIFIED="1687629235234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

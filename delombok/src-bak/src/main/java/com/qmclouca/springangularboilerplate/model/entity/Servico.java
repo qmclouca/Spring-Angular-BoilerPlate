@@ -1,4 +1,4 @@
-package com.qmclouca.springangularboilerplate.model.entity;
+package com.qmclouca.springangularboilerplate.entities.services;
 
 import lombok.Data;
 
