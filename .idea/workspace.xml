@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/AppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/aggregates/OpenApiEndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resources/application-development.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-development.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-homologation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Resources/application-production.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application-production.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/AppApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/entity/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/service/Servico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ClienteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/model/repository/ServicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ServicoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/rest/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Services" />
+        <entry key="$PROJECT_DIR$" value="AplicandoDDD" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -89,6 +80,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qmclo\IdeaProjects\Spring-Angular-BoilerPlate\src\main\Resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.AppApplication">
     <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qmclouca.springangularboilerplate.application.AppApplication" />
@@ -123,7 +119,7 @@
       <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
       <option name="jdkPath" value="" />
       <option name="language" value="java" />
-      <option name="specificationPath" value="C:\Users\qmclo\AppData\Roaming\JetBrains\IntelliJIdea2023.1\openApiExport\Spring_Angular_BoilerPlate-openapi.yaml" />
+      <option name="specificationPath" value="C:\Users\qmclo\IdeaProjects\Spring-Angular-BoilerPlate\src\main\Resources\Spring_Angular_BoilerPlate-openapi.yaml" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -153,7 +149,9 @@
       <workItem from="1687310532707" duration="3242000" />
       <workItem from="1687345868658" duration="2818000" />
       <workItem from="1687628248863" duration="2019000" />
-      <workItem from="1687630354160" duration="4859000" />
+      <workItem from="1687630354160" duration="6753000" />
+      <workItem from="1687699091212" duration="799000" />
+      <workItem from="1687699926200" duration="3834000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -211,7 +209,31 @@
       <option name="project" value="LOCAL" />
       <updated>1687313169002</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Funcionando, swagger retirado">
+      <option name="closed" value="true" />
+      <created>1687651464417</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687651464417</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Funcionando, swagger retirado">
+      <option name="closed" value="true" />
+      <created>1687651612085</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687651612085</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger">
+      <option name="closed" value="true" />
+      <created>1687701664557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687701664557</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +269,9 @@
     <MESSAGE value="ClienteRepository e ServicoRepository" />
     <MESSAGE value="H2 configurado corretamente" />
     <MESSAGE value="ClienteController" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClienteController" />
+    <MESSAGE value="Funcionando, swagger retirado" />
+    <MESSAGE value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

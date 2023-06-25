@@ -10,7 +10,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableJpaRepositories("com.qmclouca.springangularboilerplate.model.repository")
+@EnableJpaRepositories("com.qmclouca.springangularboilerplate.infrastructure.persistence.repository")
 public class JpaConfig {
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {

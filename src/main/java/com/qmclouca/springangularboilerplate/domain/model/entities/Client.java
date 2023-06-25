@@ -2,7 +2,7 @@ package com.qmclouca.springangularboilerplate.domain.model.entities;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
