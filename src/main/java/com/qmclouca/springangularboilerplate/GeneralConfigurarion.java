@@ -25,4 +25,6 @@ public class GeneralConfigurarion {
     public CommandLineRunner executePRD(){
         return args -> System.out.println("Rodando em PRD");
     }
+
+
 }

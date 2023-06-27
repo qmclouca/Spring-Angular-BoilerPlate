@@ -2,11 +2,13 @@ package com.qmclouca.springangularboilerplate.infrastructure.persistence.reposit
 
 import com.qmclouca.springangularboilerplate.domain.model.entities.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ClientRepository extends JpaRepository<Client, ClientRepository> {
+@RepositoryRestResource
+public interface ClientRepository extends JpaRepository<Client, Integer> {
     Client findByNome(String nome);
-    Client findById(int id);
-    Client deleteById(int id);
+
+    Client findByName(String nome);
 }
