@@ -7,9 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
 
+@Controller
 @RestController
 @ComponentScan
 @RequestMapping("/api/clientes")
@@ -47,12 +50,12 @@ public class ClientController {
     @Operation(summary = "Retorna um cliente pelo seu id")
     @GetMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Client> getClienteById(@PathVariable Integer id) {
+    public ResponseEntity<Optional<Client>> getClienteById(@PathVariable Integer id) {
         if (id == null) {
             throw new IllegalArgumentException("O id do cliente não pode ser nulo");
         }
-        Client client = clienteRepository.findById(id);
-        if (client == null) {
+        Optional<Client> client = clienteRepository.findById(id);
+        if (client.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(client);
