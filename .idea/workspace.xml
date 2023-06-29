@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ClientRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="37efa99a-78ef-482a-aa99-88277bcfe628" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/GeneralConfigurarion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/GeneralConfigurarion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/AppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/application/controllers/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/aggregates/OpenApiEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/domain/model/aggregates/OpenApiEndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qmclouca/springangularboilerplate/infrastructure/persistence/repository/ClientRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +152,8 @@
       <workItem from="1687630354160" duration="6753000" />
       <workItem from="1687699091212" duration="799000" />
       <workItem from="1687699926200" duration="4673000" />
-      <workItem from="1687823395728" duration="4334000" />
+      <workItem from="1687823395728" duration="4523000" />
+      <workItem from="1688073352723" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="entities">
       <created>1686828965603</created>
@@ -246,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687703999633</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ClientRepositoryImpl">
+      <option name="closed" value="true" />
+      <created>1687827789168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687827789168</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +289,8 @@
     <MESSAGE value="ClienteController" />
     <MESSAGE value="Funcionando, swagger retirado" />
     <MESSAGE value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcionando com Swagger e Jakarta precisa colocar o scaneamento dos endpoints no swagger" />
+    <MESSAGE value="ClientRepositoryImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClientRepositoryImpl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
