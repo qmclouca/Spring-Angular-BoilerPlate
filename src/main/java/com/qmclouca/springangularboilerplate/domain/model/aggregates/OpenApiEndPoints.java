@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiEndPoints {
     @Bean
     public GroupedOpenApi testApi() {
-        return GroupedOpenApi.builder().packagesToScan("com.qmclouca.springangularboilerplate.application.controllers").build();
+        return GroupedOpenApi.builder()
+                .packagesToScan("com.qmclouca.springangularboilerplate.application.controllers", "com.qmclouca.springangularboilerplate.infrastructure.persistence.repository")
+                .build();
     }
 }
